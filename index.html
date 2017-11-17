@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>B002Root</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+  </head>
+
+
+  <body onload="myFunction()" style="margin:0;padding:0;">
+
+  <img id="loader" style="width:100%;height:100%;text-align:center;" src="./assets/css/loader.gif" alt="">
+
+<div style="display:none" id="myBody">
+    <h1>Lorem Ipsum Nigga</h1><!-- 
+    div.error
+      h1(data-text="Coming Soon") Coming Soon -->
+    <h1>
+  <span class="glitch" data-text="Coming Soon">  Coming Soon
+  </span>
+</h1>
+
+    
+</div>
+
+    <script type="text/javascript">
+      var myVar;
+      function myFunction() {
+        myVar = setTimeout(showPage,1000);
+      }
+      function showPage() {
+        document.getElementById("loader").style.display = "none";
+        document.getElementById("myBody").style.display = "block";
+      }
+    </script>
+
+  </body>
+
+</html>
