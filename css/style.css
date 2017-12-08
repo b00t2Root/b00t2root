@@ -39,14 +39,14 @@ img{max-width: 100%;}
 #mainpage .about1{font-size: 13px;left:10%;top:20%;}
 #mainpage .about2{font-size: 20px;left:20%;top:5%;letter-spacing: .2em;}
 #mainpage .about3{font-size: 20px;left:25%;top:15%;letter-spacing: .2em;}
-#mainpage .about4{font-size: 13px;right:20%;top:13%;letter-spacing: .2em;}
+#mainpage .about4{font-size: 20px;right:35%;top:15%;letter-spacing: .2em;}
 #mainpage .about4 font{font-size: 50px;line-height: 1em;}
-#mainpage .about5{font-size: 13px;right:5%;top:5%;letter-spacing: .2em;line-height: 1.3em;}
-#mainpage .about6{font-size: 13px;right:50%;top:10%;letter-spacing: .2em;line-height: 1.3em;}
-#mainpage .about7{font-size: 13px;left:50%;top:5%;letter-spacing: .2em;line-height: 1.3em;}
-#mainpage .text1{text-align: center;font-size: 100px;color: #930004;letter-spacing: 1em;line-height: .8em;padding-top: 120px;text-indent: 1em;}
+#mainpage .about5{font-size: 20px;right:28%;top:5%;letter-spacing: .2em;line-height: 1.3em;}
+#mainpage .about6{font-size: 20px;right:45%;top:10%;letter-spacing: .2em;line-height: 1.3em;}
+#mainpage .about7{font-size: 20px;left:50%;top:5%;letter-spacing: .2em;line-height: 1.3em;}
+#mainpage .text1{text-align: center;font-size: 80px;text-transform: uppercase;color: #930004;letter-spacing: 0.4em;line-height: .6em;padding-top: 120px;text-indent: 1em;}
 #mainpage .text2{text-align: center;font-size: 150px;font-weight: bold;line-height: .8em;text-shadow: 1px 1px 0px rgba(0,0,0,.5);line-height: 1em;}
-#mainpage .text3{text-align: center;font-size: 50px;font-weight: bold;line-height: 1em;margin-left: 25%;margin-top: -40px;}
+#mainpage .text3{text-align: center;font-size: 50px;color: #930004;letter-spacing: 0.3em;line-height: .6em;padding-top: 0px;text-indent: .6em;}
 
 #mainpage .about1,#mainpage .about3{opacity: 1;animation: pulse 2s;-webkit-animation: pulse .2s;animation-delay: .6s;-webkit-animation-delay: .6s;animation-fill-mode: both;-webkit-animation-fill-mode: both;}
 #mainpage .about2,#mainpage .about5{opacity: 1;animation: pulse 2s;-webkit-animation: pulse .2s;animation-delay: .9s;-webkit-animation-delay: .9s;animation-fill-mode: both;-webkit-animation-fill-mode: both;}
