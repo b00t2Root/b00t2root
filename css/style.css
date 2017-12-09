@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
 html{height: 100%;box-sizing: border-box;-webkit-font-smoothing: antialiased;}
 
 a{ -webkit-transition: color 0.3s; -moz-transition: color 0.3s; transition: color 0.3s; }
@@ -45,7 +47,7 @@ img{max-width: 100%;}
 #mainpage .about6{font-size: 20px;right:45%;top:10%;letter-spacing: .2em;line-height: 1.3em;}
 #mainpage .about7{font-size: 20px;left:50%;top:5%;letter-spacing: .2em;line-height: 1.3em;}
 #mainpage .text1{text-align: center;font-size: 80px;text-transform: uppercase;color: #930004;letter-spacing: 0.4em;line-height: .6em;padding-top: 120px;text-indent: 1em;}
-#mainpage .text2{text-align: center;font-size: 150px;font-weight: bold;line-height: .8em;text-shadow: 1px 1px 0px rgba(0,0,0,.5);line-height: 1em;}
+#mainpage .text2{text-align: center;font-size: 99px;font-weight: bold;line-height: .8em;text-shadow: 1px 1px 0px rgba(0,0,0,.5);line-height: 1em;}
 #mainpage .text3{text-align: center;font-size: 50px;color: #930004;letter-spacing: 0.3em;line-height: .6em;padding-top: 0px;text-indent: .6em;}
 
 #mainpage .about1,#mainpage .about3{opacity: 1;animation: pulse 2s;-webkit-animation: pulse .2s;animation-delay: .6s;-webkit-animation-delay: .6s;animation-fill-mode: both;-webkit-animation-fill-mode: both;}
@@ -327,7 +329,7 @@ img{max-width: 100%;}
 	#mainpage{background-position: 50% 47%;}
 	#mainpage .text1{font-size: 70px;}
 	#mainpage .text2{font-size: 100px;line-height: 1em;margin-bottom: 20px;}
-	
+
 	.large-text{font-size: 24px;width: 90%;}
 }
 
@@ -383,7 +385,7 @@ img{max-width: 100%;}
 }
 
 @media (max-width: 33.9em) {
-	
+
 .header .logotype{font-size: 25px;text-indent: 1.5em;}
 .footer .social a{margin: 0 5px;}
 .large-text{font-size: 18px;width: 90%;line-height: 1.2em;}
