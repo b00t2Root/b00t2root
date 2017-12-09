@@ -39,13 +39,13 @@ img{max-width: 100%;}
 #mainpage .menu li.active a:hover{transform: inherit;animation: inherit;-webkit-animation: inherit;}
 #mainpage .about{position: absolute;text-transform: uppercase;font-weight: bold;margin-top: 6%;}
 #mainpage .about1{font-size: 13px;left:10%;top:20%;}
-#mainpage .about2{font-size: 20px;left:20%;top:5%;letter-spacing: .2em;}
-#mainpage .about3{font-size: 20px;left:25%;top:15%;letter-spacing: .2em;}
-#mainpage .about4{font-size: 20px;right:35%;top:15%;letter-spacing: .2em;}
+#mainpage .about2{font-size: 20px;left:10%;top:5%;letter-spacing: .2em;}
+#mainpage .about3{font-size: 20px;left:24%;top:15%;letter-spacing: .2em;}
+#mainpage .about4{font-size: 20px;left:58%;top:15%;letter-spacing: .2em;}
 #mainpage .about4 font{font-size: 50px;line-height: 1em;}
-#mainpage .about5{font-size: 20px;right:28%;top:5%;letter-spacing: .2em;line-height: 1.3em;}
-#mainpage .about6{font-size: 20px;right:45%;top:10%;letter-spacing: .2em;line-height: 1.3em;}
-#mainpage .about7{font-size: 20px;left:50%;top:5%;letter-spacing: .2em;line-height: 1.3em;}
+#mainpage .about5{font-size: 20px;left:35%;top:5%;letter-spacing: .2em;line-height: 1.3em;}
+#mainpage .about6{font-size: 20px;left:80%;top:15%;letter-spacing: .2em;line-height: 1.3em;}
+#mainpage .about7{font-size: 20px;left:65%;top:5%;letter-spacing: .2em;line-height: 1.3em;}
 #mainpage .text1{text-align: center;font-size: 80px;text-transform: uppercase;color: #930004;letter-spacing: 0.4em;line-height: .6em;padding-top: 120px;text-indent: 1em;}
 #mainpage .text2{text-align: center;font-size: 99px;font-weight: bold;line-height: .8em;text-shadow: 1px 1px 0px rgba(0,0,0,.5);line-height: 1em;}
 #mainpage .text3{text-align: center;font-size: 50px;color: #930004;letter-spacing: 0.3em;line-height: .6em;padding-top: 0px;text-indent: .6em;}
