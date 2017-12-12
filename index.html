@@ -12,6 +12,7 @@
       <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
       <link href="./css/bootstrap.min.css" rel="stylesheet">
       <link href="./css/timeline.css" rel="stylesheet">
+      <link href="./css/faq.css" rel="stylesheet">
       <link rel="stylesheet" href="/css/timeline.css" type="text/css">
       <link href="./fonts/fonts.css" rel="stylesheet">
       <link href="./fancy/jquery.fancybox.css" rel="stylesheet">
@@ -126,7 +127,7 @@
                                  <p style="font-family:Raleway;color:black" >Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
                                </div>
                              </div>
-                             <div class="container_t left_t">
+                             <div class="container_t left_t" >
                                <div class="content_t">
                                  <h2 style="font-family:Raleway;color:black" >Feb16</h2>
                                  <p style="font-family:Raleway;color:black" >Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
@@ -145,13 +146,27 @@
 
 
                <div class="block black" id="third">
-                  <div class=" wow blocked2" data-wow-delay="1s">
-                     <div class="large-text">
+                  <div class=" wow blocked2 " data-wow-delay="1s">
+
                         <div class="title" style="font-family: Raleway"><h2>FAQ</h2></div>
-                        <p  style="font-family: Raleway">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum.</p>
-                     </div>
+                        <button class="accordion" style="font-family: Raleway">Section 1</button>
+                        <div class="panel_f" style="font-family: Raleway">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+
+                        <button class="accordion" style="font-family: Raleway">Section 2</button>
+                        <div class="panel_f" style="font-family: Raleway">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+
+                        <button class="accordion" style="font-family: Raleway">Section 3</button>
+                        <div class="panel_f" style="font-family: Raleway">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+
                   </div>
                </div>
+
 
                <div class="block">
                   <div class="container-fluid">
@@ -201,4 +216,24 @@
          </div>
       </div>
    </body>
+
+   <!-- Faq section js -->
+   <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].onclick = function(){
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                    panel.style.display = "none";
+                } else {
+                    panel.style.display = "block";
+                }
+            }
+        }
+    </script>
+
+
 </html>
