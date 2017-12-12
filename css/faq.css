@@ -1,9 +1,9 @@
-button.accordion {
+div.accordion {
     background-color: #eee;
     color: #444;
     cursor: pointer;
     padding: 18px;
-    width: 50%;
+    width: 75%;
     border: none;
     text-align: center;
     outline: none;
@@ -11,15 +11,29 @@ button.accordion {
     transition: 0.4s;
 }
 
-button.accordion.active, button.accordion:hover {
+.yellow-title {
+  background: url(../images/splash-yellow.png) no-repeat;background-size: 100% 100%;color: black;font-size: 24px;padding: 20px 40px 15px 25px;display: inline-block;font-weight: bold;margin-bottom: 30px;
+}
+
+.container_sponsors {
+  width: 100%;
+}
+
+.sponsors_bg {
+  background-size: cover;
+  background: black url(../images/black.jpg) fixed 50% 50% no-repeat;background-size: 100% auto; position: relative;margin-bottom: 0 !important;background: black url(../images/black.jpg) fixed 50% 50% no-repeat;background-size: 100% auto; position: relative;margin-bottom: 0 !important;
+}
+
+div.accordion.active, div.accordion:hover {
     background-color: #ccc;
 }
 
 div.panel_f {
-    padding: 0 18px;
+    padding: 18px;
     display: none;
     background-color: white;
     color:black;
-    width:50%;
+    width:75%;
     text-align: center;
+
 }
